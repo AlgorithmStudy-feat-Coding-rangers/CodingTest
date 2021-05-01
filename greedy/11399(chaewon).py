@@ -1,0 +1,5 @@
+peopleCnt = int(input())
+times = list(map(int, input().split()))
+times.sort()
+minSum = sum([sum(times[0 : i + 1]) for i in range(0, peopleCnt)])
+print(minSum)
