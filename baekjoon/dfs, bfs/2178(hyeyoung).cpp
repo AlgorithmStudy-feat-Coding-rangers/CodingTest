@@ -59,7 +59,6 @@ int bfs(int x, int y){
 
 int main(){
 	
-	int x,y;
 	cin >> maxX >> maxY ;
 
 	for(int i=0;i<maxX;i++){
